@@ -17,7 +17,7 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDto {
+public class CokeDto {
 
     public UUID id;
     public Integer version;
@@ -26,7 +26,7 @@ public class BeerDto {
     private OffsetDateTime lastModifiedDate;
 
     public String beerName;
-    private BeerStyleEmun beerStyle;
+    private CokeStyleEmun beerStyle;
     private long upc;
 
     private BigDecimal price;
